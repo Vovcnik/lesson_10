@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson_10</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapprer">
+
+        <header class="header">
+            <div class="header__inner">
+                <div class="header__menu">
+
+                    <ul class="menu">
+                        <div class="header__logo">
+                            <a href="#">Uzbeklar.net</a>
+                        </div>
+                        <li>
+                            <a href="#">фильмы</a>
+                            <ul class="submenu-skroll">
+
+                                <li>
+                                    <a href="#">Все жанры</a>
+                                </li>
+                                <li>
+                                    <a href="#">Приключения</a>
+                                </li>
+                                <li>
+                                    <a href="#">Фанстастика</a>
+                                </li>
+                                <li>
+                                    <a href="#">Боевик</a>
+                                </li>
+                                <li>
+                                    <a href="#">Комедия</a>
+                                </li>
+                                <li>
+                                    <a href="#">Триллер</a>
+                                </li>
+                                <li>
+                                    <a href="#">Военный</a>
+                                </li>
+                                <li>
+                                    <a href="#">Драма</a>
+                                </li>
+                                <li>
+                                    <a href="#">Криминал</a>
+                                </li>
+                                <li>
+                                    <a href="#">Биография</a>
+                                </li>
+                                <li>
+                                    <a href="#">Мелодрамма</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">клипы </a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="#">популярные</a>
+                                </li>
+                                <li>
+                                    <a href="#">новинки</a>
+                                </li>
+                                <li>
+                                    <a href="#">зарубежные</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Музыка</a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="#">популярные</a>
+                                </li>
+                                <li>
+                                    <a href="#">новинки</a>
+                                </li>
+                                <li>
+                                    <a href="#">зарубежные</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="user__favorites">
+
+                    <form class="form-search" action="#">
+                        <div class="form__input-register-search">
+                            <input class='input-search' type="text" placeholder="поиск...">
+                        </div>
+                    </form>
+                    <div class="user">
+                        <div class="heart"></div>
+
+                        <div class="user__user">
+                            <ul class="user__menu">
+                                <li><a href="#">Профиль</a></li>
+                                <li><a href="#">выход</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+
+
+
+
+        <main class="main">
+            <div class="breadcrumbs">
+                <p>Восстановление пароля</p>
+            </div>
+            <div class="recovery__password">
+                <div class="header__title">
+                    <h1>Восстановление пароля</h1>
+                </div>
+                <p class="text__password">Введите Email, на него будет выслан новый пароль</p>
+                <form action="#" enctype="multipart/form-data">
+                    <div class="form__line">
+                        <div class="forms__input">
+                            <input placeholder="Почта*" class="inputs" type="email" required>
+                        </div>
+                        <div class="header__back">
+                            <a href="#">Вернуться в форму авторизации</a>
+                        </div>
+                        <button class="form__button" type="submit">Отправить</button>
+                        <div class="text__email-password">
+                            <p>* Если вы не получили письмо с паролем, <br> проверьте папку Спам.</p>
+                        </div>
+                        <p class="no__account">
+                            У вас нет аккаунта? <a href="#" span> Регистрация</a>
+                        </p>
+
+
+                    </div>
+                </form>
+
+            </div>
+            <div class="border"></div>
+
+
+
+            <div class="social__img">
+                <p>Присоединиться:</p>
+                <a href="#"> <img src="img/twitter.png" alt=""></a>
+                <a href="#"> <img src="img/facebook.png" alt=""></a>
+                <a href="#"> <img src="img/instagram (1) 1.png" alt=""></a>
+                <a href="#"> <img src="img/youtube.png" alt=""></a>
+                <a href="#"> <img src="img/vk.png" alt=""></a>
+                <a href="#"> <img src="img/odnoklassniki.png" alt=""></a>
+
+
+
+                <ul class="social__info">
+                    <li>
+                        <a href="#">О нас</a>
+                    </li>
+                    <li>
+                        <a href="#">Вопросы и ответы</a>
+                    </li>
+                    <li>
+                        <a href="tel:+38-067-982-81-22">+38-067-982-81-22</a>
+                    </li>
+                    <li>
+                        <a href="mailto:uzbeklarnet@gmail.com">uzbeklarnet@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="registracia">
+
+
+                <div class="registration__inner">
+
+                    <p class="title__registracia">Регистрация</p>
+
+                    <form class="form" enctype="multipart/form-data " action="# ">
+
+                        <div class="form__line">
+                            <div class="form__input-register">
+                                <label class="form__label" for="inputname">ввидите имя</label>
+                                <input id="inputname" value="Владимир" disabled class="input" name="username" type="text" placeholder="Имя*" required>
+                            </div>
+                        </div>
+                        <div class="form__line">
+
+                            <div class="form__input-register">
+                                <label class="form__label" for="inputsiname">ввидите фамилию</label>
+                                <input id="inputsiname" class="input" type="text" placeholder="Фамилия*" required>
+                            </div>
+                        </div>
+                        <div class="form__line">
+                            <div class="form__input-register">
+                                <input class="input" type="text" placeholder="логин*" required>
+                            </div>
+                        </div>
+                        <div class="form__line">
+                            <div class="form__input-register">
+                                <input class="input" type="password" placeholder="пароль*" required>
+                            </div>
+                        </div>
+                        <div class="form__line">
+                            <div class="form__input-register">
+                                <input class="input" type="password" placeholder="повторить пароль*" required>
+                            </div>
+                        </div>
+
+                        <div class="form__input-radio">
+                            <div class="form__line">
+                                <div class="form__input-radio">
+                                    <div class="option">
+                                        <input class="option__input" type="radio" name="sex" id="male">
+                                        <label class="option__label" for="male">Муж</label>
+                                    </div>
+                                </div>
+
+                                <div class="form__input-radio">
+                                    <div class="option">
+                                        <input class="option__input" checked type="radio" name="sex" id="female">
+                                        <label class="option__label" for="female">Жен</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="checboxs__input-title">
+                            <p>какие жанры фильмов вы любите?</p>
+                        </div>
+                        <div class="form__line">
+                            <div class="form__input">
+                                <div class="checbox">
+                                    <input tabindex="1" class="checbox__input" checked type="checkbox" value="good" name="html" id="checkhtml">
+                                    <label class="checbox__label" for="checkhtml">комедии</label>
+                                </div>
+                            </div>
+                            <div class="form__input">
+                                <div class="checbox">
+                                    <input class="checbox__input" type="checkbox" name="css" id="horrors">
+                                    <label class="checbox__label" for="horrors">ужасы</label>
+                                </div>
+                            </div>
+                            <div class="form__input">
+                                <div class="checbox">
+                                    <input class="checbox__input" type="checkbox" name="css" id="dramas">
+                                    <label class="checbox__label" for="dramas">драмы</label>
+                                </div>
+                            </div>
+                            <div class="form__input">
+                                <div class="checbox">
+                                    <input class="checbox__input" type="checkbox" name="css" id="checkcss">
+                                    <label class="checbox__label" for="checkcss">боевики</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="checboxs__input-title">
+                            <p>где вы любите смотреть фильмы?</p>
+                        </div>
+                        <div class="form__line">
+                            <div class="form__input-watch">
+                                <div class="checbox">
+                                    <input tabindex="1" class="checbox__input" checked type="checkbox" value="good" name="html" id="kino">
+                                    <label class="checbox__label" for="kino">кино</label>
+                                </div>
+                            </div>
+                            <div class="form__input-watch">
+                                <div class="checbox">
+                                    <input class="checbox__input" type="checkbox" name="tv" id="checktv">
+                                    <label class="checbox__label" for="checktv">телевизор</label>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="form__line">
+                            <div class="checboxs__input-title">
+                                <p>С кем вы смотрите фильмы?</p>
+                            </div>
+                            <div class="form__input">
+                                <select class="form__select" name="woomen" id="">
+											  <option value="1">женой(мужем)</option>
+											  <option value="2">с друзьями</option>
+											  <option value="3" selected>один</option>
+											 										  </select>
+                            </div>
+                            <div class="form__input">
+                                <select class="form__select" multiple name="woomen" id="">
+											<option value="1">женой(мужем)</option>
+											<option value="2">с друзьями</option>
+											<option value="3" selected>один</option>
+																					 </select>
+                            </div>
+                        </div>
+                        <div class="form__line">
+                            <div class="form__input">
+                                <label class="form__label" for="message">напиши сообщение</label>
+                                <textarea id="message" name="message" placeholder="напиши сообщение...." class="inputs-textaria"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form__line">
+                            <div class="form__input">
+                                <div class="file">
+                                    <label class="file__label" for="file">Выбрать файл</label>
+                                    <input accept=".jpg, .jpeg, .png" multiple class="file__input" id="file" type="file">
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            <footer class="footer ">
+
+        </main>
+        </footer>
+    </div>
+</body>
+
+</html>
